@@ -4,7 +4,7 @@ const pol = require('./pol.js');
 const http = require('http');
 
 const requestHandler = (req,res) => {
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader("Content-Type", 'text/html');
   res.statusCode = 200;
   res.write( pol.isAlive().toString() );
   res.end();
