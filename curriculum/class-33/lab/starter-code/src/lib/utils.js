@@ -1,6 +1,6 @@
-import superagent from 'superagent';
+import superagent from "superagent";
 
-export const get = url => {
+export const fetchData = url => {
   return superagent
     .get(url)
     .then(result => result.body)
