@@ -4,6 +4,7 @@
 
 [PR](https://github.com/401-advanced-js/seattle-javascript-401d29/pull/4)
 
+
 ## Features
 
 ![x] Convert the current react component state to use a Redux Store
