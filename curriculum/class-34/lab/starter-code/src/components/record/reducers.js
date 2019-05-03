@@ -25,7 +25,9 @@ export default (state = initialState, action) => {
       return { ...state, [model]: deleteList };
 
     case "PUT":
-      let putList = state[model].map((entry, idx) => (idx === id ? record : entry));
+      let putList = state[model].map((entry, idx) =>
+        idx === id ? record : entry
+      );
       return { ...state, [model]: putList };
 
     case "PATCH":
