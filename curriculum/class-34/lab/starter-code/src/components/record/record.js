@@ -17,6 +17,15 @@ class Record extends React.Component {
     this.state = { schema: {} };
   }
 
+  componentDidMount = () => {
+    superagent
+      .get("https://api-js401.herokuapp.com/api/v1/players/schema")
+      .then(results => {
+        this.setState({ schema: results.body });
+      })
+      .catch(console.log());
+  };
+
   resetPlayer = id => {
     this.setState({ id: null });
   };
@@ -39,7 +48,12 @@ class Record extends React.Component {
     return (
       <div>
         <h3>Edit Record {this.props.id}</h3>
-        <Form schema={this.state.schema} uiSchema={uiSchema} formData={this.props.records[this.props.model][this.props.id]} onSubmit={this.handleSubmit} />
+        <Form
+          schema={this.state.schema}
+          uiSchema={uiSchema}
+          formData={this.props.records[this.props.model][this.props.id]}
+          onSubmit={this.handleSubmit}
+        />
       </div>
     );
   }
