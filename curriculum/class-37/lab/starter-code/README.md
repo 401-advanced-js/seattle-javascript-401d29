@@ -1,7 +1,7 @@
 # Lab37 Spencer Hirata
 
-[Code Sandbox](https://codesandbox.io/s/xlo54vz02p)
-[PR](https://github.com/401-advanced-js/seattle-javascript-401d29/pull/6)
+* [Code Sandbox](https://codesandbox.io/s/xlo54vz02p)
+* [PR](https://github.com/401-advanced-js/seattle-javascript-401d29/pull/6)
 
 ## Accomplished Tasks
 
