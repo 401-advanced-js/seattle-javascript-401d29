@@ -1,5 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Reading: socket.io
-========================================================
+# Reading: Web Security
 
 Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  As you go through the readings each day, you'll find that certain sources work better for your reading and learning style. Focus on those, but also branch out and consume the material in different forms.
 
@@ -11,12 +10,17 @@ Wiki Entry Ideas:
 * Notes in outline form
 
 ## Read
-No new reading assignments
+* [XSS Tutorial](https://excess-xss.com/)
+* [common xss react vulnerabilities](https://medium.com/node-security/the-most-common-xss-vulnerability-in-react-js-applications-2bdffbcc1fa0)
+
+## Watch
+* [what is xss](https://www.youtube.com/watch?v=M_nIIcKTxGk)
+* [xss explained](https://www.youtube.com/watch?v=cbmBDiR6WaY)
 
 ## Bookmark
-* [socket.io docs](https://socket.io/)
-* [socket.io client library](https://www.npmjs.com/package/socket.io-client)
-* [socket.io react library](https://www.npmjs.com/package/socket.io-react)
+* [XSS Cheatsheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
+* [OWASP Game Dashboard](https://ctf365.com/dashboard)
+* [owasp top 10 project](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 
 
 
